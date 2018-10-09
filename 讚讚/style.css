@@ -1,0 +1,135 @@
+body{
+    background:#EDF2C5;
+  }
+  .top{
+    display:flex;
+    float:center;
+    justify-content:space-between;
+    margin:53px auto 8px auto;
+    width: 940px;
+  }
+  .small{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:17px;
+  
+  }
+  .title{
+    font-family:Arial Black;
+    font-size:44px;
+    color:#778A50;
+  }
+  .small img{
+    margin:10px 5px;
+  }
+  .small .IG {
+    display:block;
+    border-right:solid #778A50 1px;
+    padding-right:10px;
+  
+  }
+  .small .FB {
+    display:block;
+    border-right:solid #EDF2C5 1px;
+  }
+  .small .login li{
+    font-family:Arial Black;
+    display:flex;
+    list-style:none;
+    height: 20px;
+    border:1px solid #778A50;
+    border-radius:3px;
+    float:left;
+    margin:10px 5px 0px 5px;
+    padding:5px 5px 0px;
+    font-size:14px;
+    color:#778A50
+  }
+  .two{
+    display:flex;
+    background-color:#778A50;
+    margin:0px auto 0px auto;
+    width: 940px;
+    
+  }
+  .two li{
+    list-style:none;
+  }
+  .two li a{
+    display:flex;
+    text-decoration: none;
+    font-family:Arial Black;
+    font-size:16px;
+    padding:16px 30px;
+    color:#EDF2C5;
+  }
+  .two li a:hover{
+    background-color:#EDF2C5;
+    color:#778A50;
+  }
+  .pic{
+    width: 940px;
+    margin:20px auto 30px auto;
+  }
+  .three{
+    display: flex;
+    justify-content:space-between;
+    margin:0px auto 15px auto;
+    width: 940px;
+  }
+  .three li{
+    height: 30px;
+    width: 445px;
+    display:flex;
+    list-style:none;
+    font-family:Arial Black;
+    font-size:16px;
+    padding:15px 30px;
+    background-color: #778A50;
+    color:#EDF2C5;
+  }
+  .V{
+    margin-right:50px;
+  }
+  .Veg{
+    display: flex;
+    flex-wrap:nowrap;
+    margin-top:15px;
+    margin-right:50px; 
+  }
+  .Con{
+    height: 140px;
+    width: 445px;
+    background-color: #F7FBDA;
+    color:#7D7D7D;
+    font-size: 12px;
+    padding: 0px 15px;
+    margin-top:16px;
+    margin-bottom: 15px;
+  }
+  .four{
+    display: flex;
+    justify-content:space-between;
+    margin:0px auto 15px auto;
+    width: 940px;
+  }
+  hr{
+    color:#7D7D7D;
+    border-width:1px;
+    margin:16px auto;
+  }
+  .Vp1{
+    margin-right: 12px;
+  }
+  footer{
+    /*display: flex;
+    justify-content: center;*/
+    text-align: center;
+    background-color: #778A50;
+    font-size: 12px;
+    color:#EDF2C5;
+    padding-top: 24px ;
+    padding-bottom: 25px;
+    margin:auto;
+  
+  }
